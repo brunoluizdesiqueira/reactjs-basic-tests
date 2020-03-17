@@ -23,9 +23,7 @@ class TechList extends Component {
   }
 
   // Executando quando o componente deixa de existir
-  componentWillUnmount () {
-
-  }
+  componentWillUnmount () { }
 
   hendleInputChange = e => {
     this.setState({ newTech: e.target.value });
